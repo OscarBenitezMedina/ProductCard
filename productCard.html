@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/productCard.css" rel="stylesheet">
+        <script></script>
+        <script src="js/productCard.js"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+        </style>
+    </head>
+    <body>
+        <div id="card">
+            <div id="first">
+                <img id="img" src="images/converseN.png">
+                <div id="colors">
+                    <div id="black" onclick="Black()"></div>
+                    <div id="red" onclick="Red()"></div>
+                    <div id="white" onclick="White()"></div>
+                    <div id="green" onclick="Green()"></div>
+                </div>
+            </div>
+            <div id="second">
+                <div id="info">
+                    <h1>Converse shoes</h1>
+                    <h2>Description</h2>
+                    <h3>The classic of the brand in four different colors.</h3>
+                    <h2>Size:</h2>
+                    <form name="sizes">
+                        <select name="size" id = "size">
+                            <option value="0">38</option>
+                            <option value="1">40</option>
+                            <option value="2">42</option>
+                            <option value="3">44</option>
+                        </select>
+                    </form>
+                    <button type="button" id="buton">Buy</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
